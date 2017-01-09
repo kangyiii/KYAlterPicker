@@ -11,8 +11,6 @@
 
 @interface KYPickerView : NSObject
 
-
-
 + (void)showPickerWithTarget:(id)target Options:(NSArray *)options title:(NSString *)title selectionBlock:(void (^)(NSString *selectedOption))block;
 
 + (void)showDatePickerWithTarget:(id)target Title:(NSString *)title dateMode:(UIDatePickerMode)mode selectionBlock:(void (^)(NSDate *selectedDate))block;
